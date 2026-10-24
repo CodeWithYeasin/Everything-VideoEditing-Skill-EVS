@@ -1,0 +1,20 @@
+{
+  "name": "eve-remotion-graphics",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Animated graphics (titles, lower thirds, CTAs, end cards, kinetic text) for Everything-videoEditing",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

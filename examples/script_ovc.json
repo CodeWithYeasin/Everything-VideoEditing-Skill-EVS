@@ -1,0 +1,96 @@
+{
+ "title": "Eid Offer",
+ "brand": "brand.json",
+ "voice": {
+  "voice": "bn-BD-NabanitaNeural",
+  "rate": "+5%"
+ },
+ "music": {
+  "mood": "uplifting",
+  "bpm": 118
+ },
+ "captions": true,
+ "caption_style": "pop",
+ "disclaimer": "*শর্ত প্রযোজ্য",
+ "variants": [
+  "youtube",
+  "instagram_reels",
+  "instagram_feed"
+ ],
+ "versions": [
+  {
+   "name": "30s"
+  },
+  {
+   "name": "15s",
+   "scenes": [
+    1,
+    2,
+    "end"
+   ]
+  },
+  {
+   "name": "6s",
+   "scenes": [
+    2,
+    "end"
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "card": {
+    "comp": "LogoReveal",
+    "props": {}
+   },
+   "dur": 1.8
+  },
+  {
+   "media": "bg2.mp4",
+   "vo": "সকালের শুরু হোক তাজা চায়ে",
+   "super": "সকালের সেরা শুরু",
+   "transition": "fade"
+  },
+  {
+   "media": "shot_pack.mp4",
+   "vo": "ঈদে সব প্যাকেটে পঞ্চাশ শতাংশ ছাড়",
+   "badge": {
+    "label": "৫০% ছাড়",
+    "price": "৳২৪৯",
+    "oldPrice": "৳৪৯৯"
+   },
+   "transition": "slideleft"
+  },
+  {
+   "media": "shot_pack.mp4",
+   "in": 3,
+   "vo": "একদম প্রাকৃতিক স্বাদ",
+   "gfx": {
+    "comp": "FeatureCallout",
+    "props": {
+     "items": [
+      {
+       "text": "১০০% প্রাকৃতিক",
+       "x": 0.56,
+       "y": 0.42
+      },
+      {
+       "text": "আসাম চা পাতা",
+       "x": 0.45,
+       "y": 0.62
+      }
+     ]
+    }
+   },
+   "transition": "fade"
+  }
+ ],
+ "end_slate": {
+  "comp": "EndSlate",
+  "props": {
+   "product": "pack.png",
+   "cta": "এখনই অর্ডার করুন"
+  },
+  "dur": 3.0
+ }
+}

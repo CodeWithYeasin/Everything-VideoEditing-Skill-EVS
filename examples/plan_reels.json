@@ -1,0 +1,76 @@
+{
+ "output": "edited/talk_reels.mp4",
+ "platform": "instagram_reels",
+ "variants": [
+  "instagram_reels",
+  "youtube_shorts",
+  "instagram_feed"
+ ],
+ "brand": "brand.json",
+ "clips": [
+  {
+   "src": "raw.mp4",
+   "in": 0.4,
+   "out": 3.6
+  },
+  {
+   "src": "raw.mp4",
+   "in": 6.1,
+   "out": 9.8,
+   "zoom": 1.12
+  },
+  {
+   "src": "raw.mp4",
+   "in": 10.2,
+   "out": 14.0,
+   "transition": {
+    "type": "whip",
+    "dur": 0.3
+   }
+  }
+ ],
+ "grade": {
+  "preset": "natural",
+  "sharpen": 0.3
+ },
+ "overlays": [
+  {
+   "type": "text",
+   "style": "hook",
+   "text": "৩টা ভুল যা সবাই করে",
+   "start": 0.1,
+   "end": 2.4
+  },
+  {
+   "type": "video",
+   "src": "graphics/lower_third.mov",
+   "pos": "full",
+   "start": 3.0
+  }
+ ],
+ "captions": {
+  "words": "words.json",
+  "style": "pop"
+ },
+ "audio": {
+  "voice": {
+   "enhance": true
+  },
+  "music": {
+   "src": "music/calm.mp3",
+   "gain_db": -20,
+   "duck": true
+  },
+  "sfx": [
+   {
+    "src": "sfx/whoosh.wav",
+    "at": 6.5
+   }
+  ],
+  "loudness": -14
+ },
+ "fade": {
+  "in": 0.2,
+  "out": 0.4
+ }
+}

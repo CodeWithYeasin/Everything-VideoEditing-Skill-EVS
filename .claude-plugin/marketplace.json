@@ -1,0 +1,12 @@
+{
+  "name": "everything-video-editing",
+  "owner": {"name": "Yeasin Arafat"},
+  "plugins": [
+    {
+      "name": "everything-video-editing",
+      "source": "./",
+      "description": "A-to-Z video editing from a plain-language brief (creators, ads/OVC, everyday edits).",
+      "version": "1.1.0"
+    }
+  ]
+}

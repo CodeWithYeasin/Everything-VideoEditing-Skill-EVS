@@ -1,0 +1,12 @@
+{
+  "name": "everything-video-editing",
+  "displayName": "Everything-videoEditing",
+  "version": "1.1.0",
+  "description": "A-to-Z video editing from a plain-language brief: creators (FB/IG/YT/TikTok), ads/OVC and everyday edits. Whisper, Demucs, CLAP, Remotion, Blender, FFmpeg.",
+  "author": {"name": "Yeasin Arafat"},
+  "homepage": "https://github.com/CodeWithYeasin/everything-video-editing",
+  "repository": "https://github.com/CodeWithYeasin/everything-video-editing",
+  "license": "MIT",
+  "keywords": ["video", "editing", "reels", "shorts", "youtube", "captions", "bangla", "ovc", "remotion", "whisper"],
+  "skills": "./skills"
+}

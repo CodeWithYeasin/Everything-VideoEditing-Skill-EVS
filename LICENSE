@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Md Yeasin Arafat
+Copyright (c) 2026 Yeasin Arafat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Bundled fonts (skills/everything-video-editing/assets/fonts) are under the SIL Open Font
+License 1.1 (see OFL.txt). Third-party tools installed by the setup scripts (FFmpeg,
+Whisper, Demucs, CLAP, Blender, Remotion) keep their own licenses.

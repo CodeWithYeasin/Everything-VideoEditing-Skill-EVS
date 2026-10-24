@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.eve_work/
+.ovc_work/
+ovc_out/
+node_modules/
+edited/
+*.part.mp4
+.DS_Store
